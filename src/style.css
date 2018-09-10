@@ -1,0 +1,20 @@
+nav {
+    height: 120px !important;
+}
+.brand-logo{
+    padding: 25px 40px 25px !important;
+    font-size: 30px !important;
+    border: 5px;
+    border-style: solid;
+    border-color: #e57373 !important;
+    color: #e57373 !important;
+}
+.bar{
+    padding: 28px 40px 28px;
+    font-size: 20px !important;
+    color: #e57373!important;
+}
+
+html, body, .block{
+    height: 100%;
+}
