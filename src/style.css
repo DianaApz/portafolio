@@ -18,3 +18,20 @@ nav {
 html, body, .block{
     height: 100%;
 }
+.text{
+    padding: 10% 30% 20% !important;
+    
+}
+.tittle{
+    text-align: center;
+    padding: 5% 30% 5% !important;
+    color: #e57373!important;
+    border-bottom-style: solid;
+    border-color: #e57373;
+}
+.img{
+    margin: 0% 30% 0%;
+    width: 30%;
+    height:30%;
+    border-radius: 45%;
+}
