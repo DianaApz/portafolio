@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,68 +11,185 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
 </head>
+
 <body>
     <div class="block white" id="perfil">
-        <nav class="white" >
+        <nav class="white">
             <div class="nav-wrapper" class="header" class="white">
-               <a href="#!" class="brand-logo" >DA</a>
-               <a href="#" data-target="menu-responsive" class="sidenav-trigger">
-                  <i class="material-icons" id="menu">menu</i>
-               </a>
-               <ul class="right hide-on-med-and-down" >
-                   <li><a href="#perfil" class="bar">PERFIL</a></li>
-                   <li><a href="#projects" class="bar">PROYECTOS</a></li>
-                   <li><a href="#cv" class="bar">CV</a></li>
-                   <li><a href="#contactos" class="bar">CONTACTO</a></li>
-               </ul>
+                <a href="#!" class="brand-logo">DA</a>
+                <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                    <i class="material-icons" id="menu">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#perfil" class="bar">PERFIL</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="bar">PROYECTOS</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="bar">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="#contactos" class="bar">CONTACTO</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        
-        <div class="text">
-            <img src="img1.JPG" class="img" alt="" >
-            <p>Soy front-end developer con conocimientos en Javascript, CSS y HTML. 
-                Me apasiona el desarrollo de páginas webs, encontrarme con diferentes 
-                desafíos para seguir mejorando y aprendiendo nuevas tecnologías.
+
+        <div class="box">
+            <img src="../img/girl.png" class="img" alt="">
+            <p class="text">Soy front-end developer con conocimientos en Javascript, CSS y HTML. Me apasiona el desarrollo de páginas web,
+                encontrarme con diferentes desafíos para seguir mejorando y aprendiendo nuevas tecnologías.
             </p>
         </div>
     </div>
 
-    <div id="projects" class="block red lighten-5"class="section scrollspy">
-        <div >
+    <div id="projects" class="block red lighten-5" class="section scrollspy">
+        <div>
             <h4 class="tittle">PROYECTOS</h4>
             <div class="carousel">
-                <a class="carousel-item" href="#one!"><img src="cesar.JPG"></a>
-                <a class="carousel-item" href="#two!"><img src="datadashboard.JPG"></a>
-                <a class="carousel-item" href="#three!"><img src="red-social.JPG"></a>
+                <div class="carousel-item">
+                    <div class="card ">
+                        <div class="card-image ">
+                            <img src="../img/cifrar.gif"> </img>
+                        </div>
+                        <p class="card-content">
+                            Cifrado de Cesar es una página que te permite ocultar tus mensajes, modificándolo para que ninguna palabra pueda entenderse
+                            y sólo quien conozca la clave pueda leerlo.
+                        </p>
+
+                        <div class="card-action center-align">
+                            <a class="btn red lighten-2" href="https://dianaapz.github.io/lim-2018-05-bc-core-pm-cipher/src/" target="_blank">VER PROYECTO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/datadashboard.JPG">
+                        </div>
+                        <p class="card-content">
+                            DATADASHBOARD es una página web que permite al usuario acceder a la información de lecturas, quizzes y ejercicios de las
+                            estudiantes de una manera más detallada.
+                        </p>
+                        <div class="card-action center-align">
+                            <a class="btn red lighten-2" href="https://dianaapz.github.io/lim-2018-05-bc-core-pm-datadashboard/" target="_blank">VER PROYECTO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/red-social.gif">
+                        </div>
+                        <p class="card-content">
+                            SOY FEMINISTA es una Red Social dirigida a la población Feminista (mujeres y hombres) y a aquellas personas que necesiten
+                            informarse sobre esta corriente llamada "Feminismo", donde podrás compartir comentarios, editarlos
+                            etc.
+                        </p>
+                        <div class="card-action center-align">
+                            <a class="btn red lighten-2" href="#" target="_blank">VER PROYECTO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/foodmap.JPG">
+                        </div>
+                        <p class="card-content">
+                            FOODMAP es una web-app en donde el usuario pueda buscar por tipo de comida , precio u orden alfabético .
+                        </p>
+                        <div class="card-action center-align">
+                            <a class="btn red lighten-2" href="https://dianaapz.github.io/lim-2018-01-foodmap/src/" target="_blank">VER PROYECTO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/link-m.JPG">
+                        </div>
+                        <p class="card-content">
+                            Markdown Links es una librería que permite verificar los links de un archivo Markdown, mostrar el estado y estadisticas de
+                            los links.
+                        </p>
+                        <div class="card-action center-align ">
+                            <a class="btn red lighten-2" href="https://github.com/DianaApz/lim20181-Track-FE-markdown-list" target="_blank">VER PROYECTO</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div id="cv"class="block white"class="section scrollspy">
-        <div >
-            <h4 class="tittle">CV</h4>
-            <p></p>
+    <div id="skills" class="block white" class="section scrollspy">
+        <div>
+            <h4 class="tittle">SKILLS</h4>
+            <p class="center-align">
+                <img class="icon-skill" src="../img/html-5.png" alt="">
+                <img class="icon-skill" src="../img/css.png" alt="">
+                <img class="icon-skill" src="../img/javascript.png" alt="">
+                <img class="icon-skill size" src="../img/firebase.png" alt="">
+                <img class="icon-skill" src="../img/nodejs.png" alt="">
+                <img class="icon-skill" src="../img/github.png" alt="">
+                <img class="icon-skill size" src="../img/figma.png" alt="">
+                <img class="icon-skill size" src="../img/materialize.png" alt="">
+                <img class="icon-skill " src="../img/react.png" alt="">
+            </p>
         </div>
     </div>
-    <div id="contactos"class="block red lighten-5"class="section scrollspy">
-        <div >
+    <div id="contactos" class="block red lighten-5" class="section scrollspy">
+        <div>
             <h4 class="tittle">CONTACTO</h4>
-            <a href="https://www.linkedin.com/in/diana-apaza-18909616b/"><img id=""src="linkedin.png" alt="" ></a>
-            
-        </div>
-    </div>
+            <div class="center-align">
+                <p>
+                    <a class="box-ic" href="../img/cv-Diana Apz.pdf" target="_blank">
+                        <img class="ic-img" src="../img/document.png" alt="">
+                    </a>
+                    <a class="box-ic" href="https://www.linkedin.com/in/diana-apaza-18909616b/" target="_blank">
+                        <img class="ic-img" src="../img/in.png" alt="">
+                    </a>
+                    <a class="box-ic" href="https://github.com/DianaApz?tab=repositories" target="_blank">
+                        <img class="ic-img" src="../img/github.png" alt="">
+                    </a>
+                </p>
+                <p>
+                    <div class="box-ico">
+                        <img class="ic-img" src="../img/phone-circle.png">
+                        <p>970834534</p>
+                    </div>
+                    <div class="box-ico">
+                        <img class="ic-img" src="../img/gmail.png">
+                        <p> karidia09@gmail.com</p>
+                    </div>
 
-    <ul class="sidenav" id="menu-responsive">
-        <li><a href="#">PERFIL</a></li>
-        <li><a href="#">PROYECTO</a></li>
-        <li><a href="#">CV</a></li>
-        <li><a href="#">CONTACTO</a></li>
-    </ul>
-    <script src="index.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                </p>
+
+            </div>
+        </div>
+
+        <ul class="sidenav" id="menu-responsive">
+            <li>
+                <a href="#perfil">PERFIL</a>
+            </li>
+            <li>
+                <a href="#projects">PROYECTOS</a>
+            </li>
+            <li>
+                <a href="#skills">SKILLS</a>
+            </li>
+            <li>
+                <a href="#contactos">CONTACTO</a>
+            </li>
+        </ul>
+        <script src="index.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
+
 </html>

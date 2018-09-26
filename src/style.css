@@ -1,15 +1,23 @@
 nav {
     height: 120px !important;
 }
+.sidenav-trigger{
+    padding: 25px 40px 25px !important;
+    color: #f3989b !important;
+
+    
+}
 .brand-logo{
     padding: 25px 40px 25px !important;
+    font-weight: bolder;
     font-size: 30px !important;
-    border: 5px;
+    /* border: 5px;
     border-style: solid;
-    border-color: #e57373 !important;
+    border-color: #e57373 !important; */
     color: #e57373 !important;
 }
 .bar{
+    font-weight: bolder;
     padding: 28px 40px 28px;
     font-size: 20px !important;
     color: #e57373!important;
@@ -19,24 +27,109 @@ html, body, .block{
     height: 100%;
 }
 .text{
-    padding: 10% 30% 20% !important;
+    font-weight: bold;
+    color: rgba(78, 74, 74, 0.822);
+    padding: 3% 20% 5%!important;
     font-family: Arial, Helvetica, sans-serif !important;
     font-size: 20px;
     
 }
+.slides{
+    width: 200px !important;
+    height: 500px !important;
+}
 .tittle{
+    font-weight: bolder;
     text-align: center;
     padding: 3% 30% 3% !important;
     color: #e57373!important;
     border-bottom-style: solid;
     border-color: #e57373;
 }
+.box{
+    padding-top: 10%;
+}
 .img{
-    margin: 0% 30% 0%;
-    width: 30%;
-    height:30%;
+    display: block;
+    margin: auto;
+    width: 200px;
+    height:200px;
     border-radius: 45%;
 }
-.carousel-item{
-    width: 500px !important;
+
+.icon-skill{
+    display: inline-block;
+    margin: 7% 5% 0%;
 }
+.size{
+    width: 180px;
+    height: 150px;
+}
+.box-ico{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(78, 74, 74, 0.822);
+    margin: 6% 8% 0%;
+    display:inline-block;
+
+}
+.box-ic{
+    margin: 6% 8% 0%;
+    display:inline-block;
+}
+.carousel{ 
+    height: 600px !important;
+    margin: 3% 3% 0% !important;
+
+
+}
+ .carousel-item{
+    width: 500px !important;
+    height: 350px !important;
+
+}
+/* .card-image{
+    width: 500px !important;
+    height: 300px !important;
+
+} */
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .icon-skill{
+        width: 82px;
+        height: 78px;
+    }
+    .ic-img{
+        width: 60px;
+        height: 60px;
+    }
+    .text{
+        
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-size: 16px;
+        
+    }
+    .carousel-item{
+        width: 330px !important;
+        height: 300px !important;
+    
+    }
+    /* .card-image{
+        width: 330px !important;
+        height: 200px !important;
+    
+    } */
+    .carousel{ 
+        height: 500px !important;
+    
+    
+    }
+    
+    
+}
+
+

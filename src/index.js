@@ -4,22 +4,30 @@
 //   });
 document.addEventListener('DOMContentLoaded', function() {
     M.AutoInit();
-  });
+});
+// document.addEventListener('DOMContentLoaded', function() {
+//     var elems = document.querySelectorAll('.slider');
+//     var instances = M.Slider.init(elems);
+// });
 
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.pushpin');
-    var instances = M.Pushpin.init(elems, options);
+    var instances = M.Pushpin.init(elems);
 });
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.scrollspy');
-    var instances = M.ScrollSpy.init(elems, options);
+    var instances = M.ScrollSpy.init(elems);
 });
 
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, options);
-    // var instance = M.Carousel.init({
-    //   fullWidth: true
-    // });
-});
+    var instances = M.Carousel.init(elems,{
+        dist:0,
+        shift:0,
+        padding:70,
+        fullWidth:true,
+        indicators:true,
+  });
+  });
+
 
