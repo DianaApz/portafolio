@@ -21,8 +21,8 @@
 <body>
     <div class="navbar-fixed">
         <nav class="white">
-            <div class="nav-wrapper" class="header" class="white">
-                <a href="#!" class="brand-logo">DA</a>
+            <div class="nav-wrapper header" class="white">
+                <a href="#inicio" class="brand-logo">DA</a>
                 <a href="#" data-target="menu-responsive" class="sidenav-trigger">
                     <i class="material-icons" id="menu">menu</i>
                 </a>
@@ -42,8 +42,15 @@
                 </ul>
             </div>
         </nav>
-    </div>
-    <div class="white block scrollspy" id="perfil">
+    </div> 
+    <section id="inicio" class="block scrollspy">
+        <div class="container center da">
+            DIANA APAZA
+        </div>
+        <img src="" alt="">
+    </section>
+    <div class="divider"></div>
+    <section class="white block " id="perfil">
 
 
         <div class="box">
@@ -52,15 +59,47 @@
                 encontrarme con diferentes desafíos para seguir mejorando y aprendiendo nuevas tecnologías.
             </p>
         </div>
-    </div>
+    </section>
+    <div class="divider"></div>
 
-    <div id="projects" class="block white " class="section scrollspy">
+    <section id="projects" class="block white ">
 
         <h4 class="tittle center-align">PROYECTOS</h4>
         <div class="container">
-            <div class="carousel ">
-                <div class="carousel-item">
-                    <div class="card ">
+        <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
+                <div class="caption left-align">
+                  <h3>Left Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
+                <div class="caption right-align">
+                  <h3>Right Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="card ">
                         <div class="card-image ">
                             <img src="../img/cifrar.gif"> </img>
                         </div>
@@ -72,10 +111,10 @@
                         <div class="card-action center-align">
                             <a class="btn red lighten-2" href="https://dianaapz.github.io/lim-2018-05-bc-core-pm-cipher/src/" target="_blank">VER PROYECTO</a>
                         </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
+                    </div> -->
+        <!-- </div> -->
+
+        <!-- <div class="card">
                         <div class="card-image">
                             <img src="../img/datadashboard.JPG">
                         </div>
@@ -88,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                
                     <div class="card">
                         <div class="card-image">
                             <img src="../img/red-social.gif">
@@ -101,10 +140,10 @@
                         <div class="card-action center-align">
                             <a class="btn red lighten-2" href="#" target="_blank">VER PROYECTO</a>
                         </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
+                    </div> -->
+
+        <!-- <div class="carousel-item"> -->
+        <!-- <div class="card">
                         <div class="card-image">
                             <img src="../img/foodmap.JPG">
                         </div>
@@ -114,10 +153,10 @@
                         <div class="card-action center-align">
                             <a class="btn red lighten-2" href="https://dianaapz.github.io/lim-2018-01-foodmap/src/" target="_blank">VER PROYECTO</a>
                         </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
+                    </div> -->
+        <!-- </div> -->
+        <!-- <div class="carousel-item"> -->
+        <!-- <div class="card">
                         <div class="card-image">
                             <img src="../img/link-m.JPG">
                         </div>
@@ -128,42 +167,42 @@
                         <div class="card-action center-align ">
                             <a class="btn red lighten-2" href="https://github.com/DianaApz/lim20181-Track-FE-markdown-list" target="_blank">VER PROYECTO</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                    </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+    
+    </section>
 
-    <div id="skills" class="block white" class="section scrollspy">
+    <section id="skills" class="block white">
 
         <h4 class="tittle center-align">SKILLS</h4>
 
         <div class="container center-align">
-            <div class="row" style="color:rgb(161, 157, 157)">
+            <div class="row" id="sk" style="color:rgb(105, 102, 102)">
 
-                <div class="col s2 m4">
+                <div class="col s12 m4">
                     <i class="fab fa-html5 fa-4x"></i>
                     <p>HTML5 </p>
                 </div>
-                <div class="col s2 m4">
+                <div class="col s12 m4">
                     <i class="fab fa-css3-alt fa-4x"></i>
                     <p>CSS</p>
                 </div>
-                <div class="col s2 m4">
+                <div class="col s12 m4">
                     <i class="fab fa-js-square fa-4x"></i>
                     <p>Javascript</p>
                 </div>
-                <div class="col s2 m4">
+                <div class="col s12 m4">
                     <i class="fa fa-database fa-4x" aria-hidden="true"></i>
                     <p>Firebase</p>
                 </div>
-                <div class="col s2 m4">
+                <div class="col s12 m4">
                     <i class="fab fa-node-js fa-4x"></i>
                     <p>CSS</p>
                 </div>
-                <div class="col s2 m4">
-                    <i class="fab fa-css3-alt "></i>
-                    <p>CSS</p>
+                <div class="col s12 m4">
+                    <i class="fab fa-github fa-4x" style="color:gray"></i>
+                    <p>Github</p>
                 </div>
 
             </div>
@@ -177,69 +216,67 @@
                 <img class="icon-skill size" src="../img/materialize.png" alt="">
                 <img class="icon-skill " src="../img/react.png" alt=""> -->
         </div>
-    </div>
-    </div>
-    <div id="contactos" class="block white " class="section scrollspy">
-        
-            <h4 class="tittle center-align">CONTÁCTAME</h4>
-            <div class="container center-align" style="color:gray">
-                <div class="row "  >
-                    <div class="col s6">
-                        <div class="row">
-                            <div class="col s12">
-                                <a href="../img/cv-Diana Apz.pdf" target="_blank">
-                                    <i class="far fa-file fa-4x" style="color:gray"></i>
-                                </a>
-                            </div>
-                            <div class="col s12">
-                                <a href="https://www.linkedin.com/in/diana-apaza-18909616b/" target="_blank">
-                                    <i class="fab fa-linkedin fa-4x" style="color:gray"></i>
-                                </a>
-                            </div>
-                            <div class="col s12">
-                                <a href="https://github.com/DianaApz?tab=repositories" target="_blank">
-                                    <i class="fab fa-github fa-4x" style="color:gray"></i>
-                                </a>
-                            </div>
+    </section>
+    <div class="divider"></div>
+    <section id="contactos" class="block white ">
+
+        <h4 class="tittle center-align">CONTÁCTAME</h4>
+        <div class="container center-align ">
+            <div class="row ">
+                <div class="col s6">
+                    <div class="row">
+                        <div class="col s12">
+                            <a href="../img/cv-Diana Apz.pdf" class="far fa-file fa-4x"  target="_blank">
+                                
+                            </a>
+                            <p>Descarga mi cv</p>
+                        </div>
+                        <div class="col s12">
+                            <a href="https://www.linkedin.com/in/diana-apaza-18909616b/" class="fab fa-linkedin fa-4x" target="_blank">
+                                
+                            </a>
+                            <p>Linkedin</p>
                         </div>
                     </div>
-                    <div class="col s6">
-                        <div class="row">
-                            <div class="col s12">
-                                <i class="fas fa-mobile-alt fa-4x" ></i>
-                                <p>970834534</p>
-
-                            </div>
-                            <div class="col s12">
-                                <i class="fas fa-at fa-4x " ></i>
-                                <p> dianaapz@hotmail.com</p>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
                 </div>
-            </div>
+                <div class="col s6">
+                    <div class="row">
+                        <div class="col s12">
+                            <i class="fas fa-mobile-alt fa-4x"></i>
+                            <p>970834534</p>
 
-            <ul class="sidenav" id="menu-responsive">
-                <li>
-                    <a href="#perfil">PERFIL</a>
-                </li>
-                <li>
-                    <a href="#projects">PROYECTOS</a>
-                </li>
-                <li>
-                    <a href="#skills">SKILLS</a>
-                </li>
-                <li>
-                    <a href="#contactos">CONTACTO</a>
-                </li>
-            </ul>
-            <script src="index.js"></script>
-            <!-- Compiled and minified JavaScript -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                        </div>
+                        <div class="col s12">
+                            <i class="fas fa-at fa-4x "></i>
+                            <p> dianaapz@hotmail.com</p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+        <ul class="sidenav" id="menu-responsive">
+            <li>
+                <a href="#perfil">PERFIL</a>
+            </li>
+            <li>
+                <a href="#projects">PROYECTOS</a>
+            </li>
+            <li>
+                <a href="#skills">SKILLS</a>
+            </li>
+            <li>
+                <a href="#contactos">CONTACTO</a>
+            </li>
+        </ul>
+        <script src="index.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>

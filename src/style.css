@@ -7,6 +7,7 @@ nav {
 
     
 }
+
 .brand-logo{
     padding: 8px 40px 8px !important;
     font-weight: bolder;
@@ -56,6 +57,9 @@ html, body, .block{
     height:200px;
     border-radius: 45%;
 }
+#sk p{
+    font-weight: bolder;
+}
 
 .icon-skill{
     display: inline-block;
@@ -99,8 +103,22 @@ html, body, .block{
 } */
 
 
+.da{
+    font-size: 30px;
+    color: #e57373;
+    font-weight: bolder;
+    padding: 15%;
 
-
+}
+#contactos div p{
+    color: gray;
+    font-size: 15px;
+    
+}
+#contactos div a{
+    color: gray;
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 900px) {
     .icon-skill{
@@ -117,23 +135,25 @@ html, body, .block{
         font-size: 16px;
         
     }
-    .carousel-item{
-        width: 330px !important;
+    /* .card{
+        
         height: 300px !important;
     
-    }
+    } */
     /* .card-image{
-        width: 330px !important;
-        height: 200px !important;
+        
+        width: 50% !important;
     
     } */
-    .carousel{ 
+    /* .carousel{ 
         height: 500px !important;
     
     
-    }
+    } */
     
     
 }
+
+
 
 
