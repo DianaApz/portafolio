@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Carousel.init(elems,{
         dist:0,
         shift:0,
-        padding:70,
+        padding:100,
         fullWidth:true,
         indicators:true,
   });

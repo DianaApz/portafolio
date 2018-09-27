@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
     <!--Import Google Icon Font-->
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -16,7 +19,7 @@
 </head>
 
 <body>
-    <div class="block white" id="perfil">
+    <div class="navbar-fixed">
         <nav class="white">
             <div class="nav-wrapper" class="header" class="white">
                 <a href="#!" class="brand-logo">DA</a>
@@ -39,6 +42,9 @@
                 </ul>
             </div>
         </nav>
+    </div>
+    <div class="white block scrollspy" id="perfil">
+
 
         <div class="box">
             <img src="../img/girl.png" class="img" alt="">
@@ -48,10 +54,10 @@
         </div>
     </div>
 
-    <div id="projects" class="block red lighten-5" class="section scrollspy">
-        <div>
-            <h4 class="tittle">PROYECTOS</h4>
-            <div class="carousel">
+    <div id="projects" class="block white " class="section scrollspy">
+        <div class="container">
+            <h4 class="tittle center-align">PROYECTOS</h4>
+            <div class="carousel ">
                 <div class="carousel-item">
                     <div class="card ">
                         <div class="card-image ">
@@ -129,9 +135,40 @@
 
     <div id="skills" class="block white" class="section scrollspy">
         <div>
-            <h4 class="tittle">SKILLS</h4>
-            <p class="center-align">
-                <img class="icon-skill" src="../img/html-5.png" alt="">
+            <h4 class="tittle center-align">SKILLS</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col s4">
+                        <i class="fab fa-html5 fa-4x" style="color:gray"></i>
+                        <p>HTML5 </p>
+                    </div>
+                    <div class="col s4">
+                        <i class="fab fa-css3-alt fa-4x" style="color:gray"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="col s4">
+                        <i class="fab fa-css3-alt "></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="col s2">
+                        <i class="fab fa-css3-alt "></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="col s2">
+                        <i class="fab fa-css3-alt "></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="col s2">
+                        <i class="fab fa-css3-alt "></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="col s4">
+                        <i class="fab fa-css3-alt "></i>
+                        <p>CSS</p>
+                    </div>
+
+                </div>
+                <!-- <img class="icon-skill" src="../img/html-5.png" alt="">
                 <img class="icon-skill" src="../img/css.png" alt="">
                 <img class="icon-skill" src="../img/javascript.png" alt="">
                 <img class="icon-skill size" src="../img/firebase.png" alt="">
@@ -139,37 +176,39 @@
                 <img class="icon-skill" src="../img/github.png" alt="">
                 <img class="icon-skill size" src="../img/figma.png" alt="">
                 <img class="icon-skill size" src="../img/materialize.png" alt="">
-                <img class="icon-skill " src="../img/react.png" alt="">
-            </p>
+                <img class="icon-skill " src="../img/react.png" alt=""> -->
+            </div>
         </div>
     </div>
-    <div id="contactos" class="block red lighten-5" class="section scrollspy">
+    <div id="contactos" class="block white" class="section scrollspy">
         <div>
-            <h4 class="tittle">CONTACTO</h4>
-            <div class="center-align">
-                <p>
-                    <a class="box-ic" href="../img/cv-Diana Apz.pdf" target="_blank">
-                        <img class="ic-img" src="../img/document.png" alt="">
-                    </a>
-                    <a class="box-ic" href="https://www.linkedin.com/in/diana-apaza-18909616b/" target="_blank">
-                        <img class="ic-img" src="../img/in.png" alt="">
-                    </a>
-                    <a class="box-ic" href="https://github.com/DianaApz?tab=repositories" target="_blank">
-                        <img class="ic-img" src="../img/github.png" alt="">
-                    </a>
-                </p>
-                <p>
-                    <div class="box-ico">
-                        <img class="ic-img" src="../img/phone-circle.png">
+            <h4 class="tittle center-align">CONTÁCTAME</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col s4 m2">
+                        <a href="../img/cv-Diana Apz.pdf" target="_blank">
+                            <i class="far fa-file fa-4x"></i>
+                        </a>
+                    </div>
+                    <div class="col s4 m2">
+                        <a href="https://www.linkedin.com/in/diana-apaza-18909616b/" target="_blank">
+                            <i class="fab fa-linkedin fa-4x"></i>
+                        </a>
+                    </div>
+                    <div class="col s4 m2">
+                        <a href="https://github.com/DianaApz?tab=repositories" target="_blank">
+                            <i class="fab fa-github fa-4x" style="color:gray"></i>
+                        </a>
+                    </div>
+                    <div class="col s4">
+                        <i class="fas fa-mobile-alt fa-4x" style="color:gray"></i>
                         <p>970834534</p>
                     </div>
-                    <div class="box-ico">
-                        <img class="ic-img" src="../img/gmail.png">
-                        <p> karidia09@gmail.com</p>
+                    <div class="col s2">
+                        <i class="fas fa-at fa-4x " style="color:gray"></i>
+                        <p> dianaapz@hotmail.com</p>
                     </div>
-
-                </p>
-
+                </div>
             </div>
         </div>
 
@@ -187,6 +226,8 @@
                 <a href="#contactos">CONTACTO</a>
             </li>
         </ul>
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
+            crossorigin="anonymous"></script>
         <script src="index.js"></script>
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
