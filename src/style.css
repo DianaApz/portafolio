@@ -41,7 +41,7 @@ html, body, .block{
 .tittle{
     font-weight: bolder;
     /* text-align: center; */
-    padding: 8% 30% 3% !important;
+    padding: 10% 30% 3% !important;
     color: #e57373!important;
     /* border-bottom-style: solid;
     border-color: #e57373; */
@@ -87,8 +87,8 @@ html, body, .block{
 
 }
  .carousel-item{
-    width: 500px !important;
-    height: 350px !important;
+    width: 350px !important;
+    height: 250px !important;
     /* padding-top: 15% !important; */
 
 }
