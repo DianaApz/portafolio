@@ -2,6 +2,11 @@
 //     var elems = document.querySelectorAll('.sidenav');
 //     var instances = M.Sidenav.init(elems, options);
 //   });
+// $('.carousel.carousel-slider').carousel({
+//     fullWidth: true,
+//     indicators: false
+//  });
+
 document.addEventListener('DOMContentLoaded', function() {
     M.AutoInit();
 });
@@ -22,9 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
     var instances = M.Carousel.init(elems,{
-        dist:0,
-        shift:0,
-        padding:200,
+        
         fullWidth:true,
         indicators:true,
   });
