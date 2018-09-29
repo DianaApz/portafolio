@@ -14,40 +14,45 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--Let browser know website is optimized for mobile-->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,900' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
 </head>
 
 <body>
-    <div class="navbar-fixed">
-        <nav class="white">
-            <div class="nav-wrapper header" class="white">
+    <section id="inicio" class="block scrollspy">
+    <div class="navbar-fixed hide on med">
+        <nav >
+            <div class="nav-wrapper" class="white">
                 <a href="#inicio" class="brand-logo">DA</a>
                 <a href="#" data-target="menu-responsive" class="sidenav-trigger">
                     <i class="material-icons" id="menu">menu</i>
                 </a>
-                <ul class="right hide-on-med-and-down">
+                <ul class="right hide-on-med-and-down ">
                     <li>
-                        <a href="#perfil" class="bar">PERFIL</a>
+                        <a href="#perfil" class="bar hover">PERFIL</a>
                     </li>
                     <li>
-                        <a href="#projects" class="bar">PROYECTOS</a>
+                        <a href="#projects" class="bar hover">PROYECTOS</a>
                     </li>
                     <li>
-                        <a href="#skills" class="bar">SKILLS</a>
+                        <a href="#skills" class="bar hover">SKILLS</a>
                     </li>
                     <li>
-                        <a href="#contactos" class="bar">CONTACTO</a>
+                        <a href="#contactos" class="bar hover">CONTACTO</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-    <section id="inicio" class="block scrollspy">
-        <div class="container center da">
-            DIANA APAZA
+    
+        <div class="container center da" >
+                <div class="moving-letters">
+                        <h3 class="ml2">Diana Apaza</h3>
+                        <p class="ml2">Front-end Developer</p>
+                </div>
+            
         </div>
-        <img src="" alt="">
     </section>
     <div class="divider"></div>
     <section class="white block " id="perfil">
@@ -55,10 +60,12 @@
 
         <div class="container perfil-block center">
             <div class="row center">
-                <div class="col s6"><img src="../img/girl.png"  alt=""></div>
-                
-                <p class="col s6 text">Soy front-end developer a quien le apasiona el desarrollo de páginas
-                    web, encontrarme con diferentes desafíos para seguir mejorando y aprendiendo nuevas tecnologías.
+                <div class="col s6">
+                    <img class="image"src="../img/img1.JPG" alt="">
+                </div>
+
+                <p class="col s6 text">Soy front-end developer a quien le apasiona el desarrollo de páginas web, encontrarme con diferentes desafíos
+                    para seguir mejorando y aprendiendo nuevas tecnologías.
                 </p>
             </div>
         </div>
@@ -67,7 +74,7 @@
 
     <section id="projects" class="block white">
         <h4 class="tittle-one center-align">PROYECTOS</h4>
-        <div class="container">
+        <div class="container text-project">
             <div class="row">
                 <div class="col s12 valign-wrapper ">
                     <div class="carousel carousel-slider" data-indicators="true">
@@ -75,8 +82,8 @@
                             <div class="col l6">
                                 <img src="../img/datadashboard.JPG" class="col s12">
                             </div>
-                            <div class="col s12 l6 projects-text">
-                                <p class="center uppercase">Datadashboard</p>
+                            <div class="col s12 l6 ">
+                                <p class="center ">DATADASHBOARD</p>
                                 <br>
                                 <div class="center ">
                                     <p>Permite al usuario acceder a la información de lecturas, quizzes y ejercicios de las
@@ -94,8 +101,8 @@
                             <div class="col l6">
                                 <img src="../img/red-social.gif" class="col s12">
                             </div>
-                            <div class="col s12 l6 projects-text">
-                                <p class="center uppercase">Red social</p>
+                            <div class="col s12 l6 ">
+                                <p class="center uppercase">RED SOCIAL</p>
                                 <br>
                                 <div class="center ">
                                     <p>SOY FEMINISTA es una Red Social dirigida a la población Feminista (mujeres y hombres)
@@ -115,7 +122,7 @@
                             <div class="col l6">
                                 <img src="../img/foodmap.JPG" class="col s12">
                             </div>
-                            <div class="col s12 l6 projects-text">
+                            <div class="col s12 l6 ">
                                 <p class="center uppercase">FOODMAP </p>
                                 <br>
                                 <div class="center ">
@@ -134,8 +141,8 @@
                             <div class="col l6">
                                 <img src="../img/link-m.JPG" class="col s12">
                             </div>
-                            <div class="col s12 l6 projects-text">
-                                <p class="center uppercase">Markdown Links </p>
+                            <div class="col s12 l6 ">
+                                <p class="center uppercase">MARKDOWN LINKS </p>
                                 <br>
                                 <div class="center ">
                                     <p>Es una librería que permite verificar los links de un archivo Markdown, mostrar el estado
@@ -162,52 +169,73 @@
 
     <section id="skills" class="block white">
 
-        <h4 class="tittle center-align">SKILLS</h4>
+        <!-- <h4 class="tittle hide-on-med">SKILLS</h4> -->
 
         <div class="container center-align">
             <div class="row" id="sk" style="color:rgb(105, 102, 102)">
+                <div class="col s6">
+                    <h5 class="hide-on-med-and-down tittle-skills">PROGRAMMING SKILLS</h5>
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <i class="fab fa-html5 fa-3x"></i>
+                            <p>HTML5 </p>
+                        </div>
+                        <div class="col s12 m6">
+                            <i class="fab fa-css3-alt fa-3x"></i>
+                            <p>CSS</p>
+                        </div>
+                        <div class="col s12 m6">
+                            <i class="fab fa-js-square fa-3x"></i>
+                            <p>Javascript</p>
+                        </div>
+                        <div class="col s12 m6">
+                            <i class="fa fa-database fa-3x" aria-hidden="true"></i>
+                            <p>Firebase</p>
+                        </div>
+                        <div class="col s12 m6">
+                            <i class="fab fa-node-js fa-3x"></i>
+                            <p>Node.js</p>
+                        </div>
+                        <div class="col s12 m6">
+                            <i class="fab fa-github fa-3x" style="color:gray"></i>
+                            <p>Github</p>
+                        </div>
 
-                <div class="col s12 m4">
-                    <i class="fab fa-html5 fa-4x"></i>
-                    <p>HTML5 </p>
+                    </div>
                 </div>
-                <div class="col s12 m4">
-                    <i class="fab fa-css3-alt fa-4x"></i>
-                    <p>CSS</p>
+                <div class="col s6">
+                    <h5 class="hide-on-med-and-down tittle-skills">SOFT SKILLS</h5>
+                    <div class="row">
+                        <div class="col s12 m6">
+                                <i class="far fa-handshake fa-3x"></i>
+                                <p>Trabajo en equipo</p>
+                        </div>
+                        <div class="col s12 m6">
+                                <i class="fas fa-briefcase fa-3x"></i>
+                                <p>Responsabilidad</p>
+                        </div>
+                        <div class="col s12 m6">
+                                <i class="fas fa-heart fa-3x"></i>
+                                <p>Empatía</p>
+                        </div>
+                        <div class="col s12 m6">
+                                <i class="fas fa-chalkboard-teacher fa-3x"></i>
+                                <p>Autoaprendizaje</p>
+                        </div>
+
+                    </div>
+
                 </div>
-                <div class="col s12 m4">
-                    <i class="fab fa-js-square fa-4x"></i>
-                    <p>Javascript</p>
-                </div>
-                <div class="col s12 m4">
-                    <i class="fa fa-database fa-4x" aria-hidden="true"></i>
-                    <p>Firebase</p>
-                </div>
-                <div class="col s12 m4">
-                    <i class="fab fa-node-js fa-4x"></i>
-                    <p>CSS</p>
-                </div>
-                <div class="col s12 m4">
-                    <i class="fab fa-github fa-4x" style="color:gray"></i>
-                    <p>Github</p>
-                </div>
+
+
 
             </div>
-            <!-- <img class="icon-skill" src="../img/html-5.png" alt="">
-                <img class="icon-skill" src="../img/css.png" alt="">
-                <img class="icon-skill" src="../img/javascript.png" alt="">
-                <img class="icon-skill size" src="../img/firebase.png" alt="">
-                <img class="icon-skill" src="../img/nodejs.png" alt="">
-                <img class="icon-skill" src="../img/github.png" alt="">
-                <img class="icon-skill size" src="../img/figma.png" alt="">
-                <img class="icon-skill size" src="../img/materialize.png" alt="">
-                <img class="icon-skill " src="../img/react.png" alt=""> -->
         </div>
     </section>
     <div class="divider"></div>
     <section id="contactos" class="block white ">
 
-        <h4 class="tittle center-align">CONTÁCTAME</h4>
+        <h5 class="tittle center-align">CONTÁCTAME</h5>
         <div class="container center-align ">
             <div class="row ">
                 <div class="col s6">
@@ -219,9 +247,7 @@
                             <p>Descarga mi cv</p>
                         </div>
                         <div class="col s12">
-                            <a href="https://www.linkedin.com/in/diana-apaza-18909616b/" class="fab fa-linkedin fa-4x" target="_blank">
-
-                            </a>
+                            <a href="https://www.linkedin.com/in/diana-apaza-18909616b/" class="fab fa-linkedin fa-4x" target="_blank"></a>
                             <p>Linkedin</p>
                         </div>
                     </div>
@@ -229,12 +255,12 @@
                 <div class="col s6">
                     <div class="row">
                         <div class="col s12">
-                            <i class="fas fa-mobile-alt fa-4x"></i>
+                            <i class="fas fa-mobile-alt fa-4x " style="color:gray"></i>
                             <p>970834534</p>
 
                         </div>
                         <div class="col s12">
-                            <i class="fas fa-at fa-4x "></i>
+                            <i class="fas fa-at fa-4x " style="color:gray"></i>
                             <p> dianaapz@hotmail.com</p>
 
                         </div>
@@ -261,9 +287,14 @@
             <a href="#contactos">CONTACTO</a>
         </li>
     </ul>
-    <script src="index.js"></script>
+    
+    
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>var ml = { timelines: {}};</script>
+    <script src="index.js"></script>
 </body>
 
 </html>
