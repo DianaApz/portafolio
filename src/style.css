@@ -1,10 +1,14 @@
+/* 
+*{
+    border: black solid 5px;
+} */
 nav {
     height: 80px !important;
-    background-color: transparent !important;
+    background-color: white !important;
    
 }
 .navbar-wrapper{
-    background-color: transparent !important;
+    background-color: white !important;
 }
 
 .sidenav-trigger{
@@ -18,12 +22,15 @@ nav {
 }
 .hover:hover{
     border-bottom: #e57373 solid 5px;
-    background-color: transparent;
+    /* background-color: transparent; */
 }
 #inicio{
-    /* background: url(../img/.jpg); */
-    width: 100%;
+    background: url(../img/port.jpg);
     background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-attachment: fixed;
 }
 .carousel {
     width: 100% !important;
@@ -46,7 +53,7 @@ padding-top: 5% !important;
     font-weight: bolder;
 }
 .image{
-    width: 50%;
+    width: 40%;
 }
 .brand-logo{
     padding: 8px 40px 8px !important;
@@ -56,6 +63,12 @@ padding-top: 5% !important;
     border-style: solid;
     border-color: #e57373 !important; */
     color: #e57373 !important;
+}
+.res-img2{
+    width: 30% !important;
+}
+.res-img{
+    width: 40% !important;
 }
 .bar{
     font-weight: bolder;
@@ -68,9 +81,10 @@ html, body, .block{
     height: 100%;
 }
 .text{
+    text-align: justify;
     font-weight: bold;
     color: rgba(78, 74, 74, 0.822);
-    padding: 3% 0% 5%!important;
+    padding: 0% 0% 5%!important;
     font-family: Arial, Helvetica, sans-serif !important;
     font-size: 15px;
     
@@ -85,7 +99,7 @@ html, body, .block{
     font-weight: bolder;
 }
 .tittle-skills{
-    padding: 28% 0% 15% !important;
+    padding: 0% 0% 15% !important;
     color: #e57373 !important;
     font-weight: 700;
 }
@@ -122,14 +136,15 @@ html, body, .block{
     right: 0;
     left: 0;
     bottom: 0;
-    padding: 5% 0% 0%;
+    padding: 0% 0% 0%;
     margin: auto;
-    height: 200px;
+    height: 350px;
 }
 .ml2 {
     font-weight: 900;
     
  }
+
 .ml2 .letter {
     display: inline-block;
     line-height: 2em;
@@ -138,7 +153,6 @@ html, body, .block{
     font-size: 30px;
     color: gray;
     font-weight: bolder;
-    padding: 20%;
 
 }
 #contactos div p{
@@ -151,7 +165,7 @@ html, body, .block{
     text-decoration: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1030px) {
   
     .text{
         
@@ -159,7 +173,16 @@ html, body, .block{
         font-size: 16px;
         
     }
-   
+    .ml2{
+        font-size: 32px;
+    }
+    .ml3{
+        font-size: 16px;
+    }
+   #inicio{
+       background-position: 50%;
+       background-size: cover;
+   }
     
     
 }

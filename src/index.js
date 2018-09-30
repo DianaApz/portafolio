@@ -30,15 +30,21 @@ $('.ml2').each(function(){
 document.addEventListener('DOMContentLoaded', function() {
     M.AutoInit();
 });
+
 // document.addEventListener('DOMContentLoaded', function() {
 //     var elems = document.querySelectorAll('.slider');
 //     var instances = M.Slider.init(elems);
 // });
-
+let block=document.querySelectorAll('#skills');
+console.log(block.offsetHeight);
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.pushpin');
-    var instances = M.Pushpin.init(elems);
-});
+    var target = document.querySelectorAll('.data-target');
+    var instances = M.Pushpin.init(elems,{
+        top: 800,
+       
+      });
+  });
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.scrollspy');
     var instances = M.ScrollSpy.init(elems);
