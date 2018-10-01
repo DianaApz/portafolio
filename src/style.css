@@ -34,7 +34,7 @@ nav {
     color: #f3989b !important;   
 }
 .perfil-block{
-    padding: 10% 0% 10%;
+    padding: 8% 0% 8%;
 }
 .text{
     text-align: justify;
@@ -119,7 +119,7 @@ html, body, .block{
     height: 500px !important;
 }
 .tittle-one{
-    padding: 10% 30% 4% !important;
+    padding: 10% 30% 2% !important;
     color: #e57373!important;
     font-weight: bolder;
 }
@@ -128,7 +128,7 @@ html, body, .block{
     font-weight: 700;
 }
 .content-sk{
-    padding: 15% !important;
+    padding: 8% 0% 0%!important;
 }
 .tittle{
     font-weight: bolder;
