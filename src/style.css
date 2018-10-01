@@ -27,10 +27,10 @@
 
 }
 nav {
-    height: 80px !important;
+    height: 70px !important;
 }
 .sidenav-trigger{
-    padding: 8px 40px 8px !important;
+    padding: 4px 30px 4px !important;
     color: #f3989b !important;   
 }
 .perfil-block{
@@ -39,7 +39,7 @@ nav {
 .text{
     text-align: justify;
     color: rgba(78, 74, 74, 0.822);
-    font-size: 20px;
+    font-size: 16px;
     /* padding: 0% !important; */
 }
 .image{
@@ -48,6 +48,7 @@ nav {
 }
 .hover:hover{
     border-bottom: #e57373 solid 5px;
+    padding: 3px 40px 3px !important;
     /* background-color: transparent; */
 }
 #inicio{
@@ -82,7 +83,7 @@ border-radius: 5px;
 }
 
 .brand-logo{
-    padding: 8px 40px 8px !important;
+    padding: 3px 40px 3px !important;
     font-weight: bolder;
     font-size: 30px !important;
     /* border: 5px;
@@ -104,8 +105,8 @@ border-radius: 5px;
 /* } */
 .bar{
     font-weight: bolder;
-    padding: 8px 40px 6px;
-    font-size: 20px !important;
+    padding: 3px 40px 3px;
+    font-size: 16px !important;
     color: #e57373!important;
 }
 
@@ -118,12 +119,11 @@ html, body, .block{
     height: 500px !important;
 }
 .tittle-one{
-    padding: 10% 30% 5% !important;
+    padding: 10% 30% 4% !important;
     color: #e57373!important;
     font-weight: bolder;
 }
 .tittle-skills{
-    padding: 0% !important;
     color: #e57373 !important;
     font-weight: 700;
 }
@@ -133,7 +133,7 @@ html, body, .block{
 .tittle{
     font-weight: bolder;
     /* text-align: center; */
-    padding: 10% 30% 3% !important;
+    padding: 10% 30% 1% !important;
     color: #e57373!important;
     /* border-bottom-style: solid;
     border-color: #e57373; */
