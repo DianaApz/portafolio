@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.pushpin');
     var target = document.querySelectorAll('.data-target');
     var instances = M.Pushpin.init(elems,{
-        top: 690,
+        top: 670,
        
       });
   });
