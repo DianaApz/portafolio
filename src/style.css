@@ -26,6 +26,12 @@
     font-weight: bolder;
 
 }
+.aboutMe{
+    padding-top: 1% !important;
+    padding-bottom: 4% !important;
+    color: #e57373!important;
+    font-weight: bolder;
+}
 nav {
     height: 70px !important;
 }
@@ -34,7 +40,8 @@ nav {
     color: #f3989b !important;   
 }
 .perfil-block{
-    padding: 8% 0% 8%;
+    padding: 4% 0% 4%;
+
 }
 .text{
     line-height: 1.6;
@@ -120,13 +127,14 @@ html, body, .block{
     height: 500px !important;
 }
 .tittle-one{
-    padding: 10% 30% 2% !important;
+    padding: 10% 30% 5% !important;
     color: #e57373!important;
     font-weight: bolder;
 }
 .tittle-skills{
     color: #e57373 !important;
     font-weight: 700;
+    font-size:20px;
 }
 .content-sk{
     padding: 8% 0% 0%!important;
@@ -134,7 +142,7 @@ html, body, .block{
 .tittle{
     font-weight: bolder;
     /* text-align: center; */
-    padding: 10% 30% 1% !important;
+    padding: 10% 30% 5% !important;
     color: #e57373!important;
     /* border-bottom-style: solid;
     border-color: #e57373; */
@@ -189,8 +197,22 @@ html, body, .block{
        background-position: 50%;
        background-size: cover;
    }
-   
+   .aboutMe{
+       padding: 5% 0% 8% !important;
+   }
+   .tittle,  .tittle-one{
+       padding: 12% !important;
+    }
+    .carousel-item{
+        padding-top: 10% !important; 
+    }
+    .image{
+        padding: 1% 0% 1% !important;
+    }
+    .perfil-block{
+        padding: 5% 0% 0%;
     
+    }
     
 }
 
