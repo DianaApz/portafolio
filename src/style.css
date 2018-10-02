@@ -2,6 +2,9 @@
 *{
     border: black solid 5px;
 } */
+.block-portada{
+    height: 100%;
+}
 .moving-letters {
     position: absolute;
     top: 0;
@@ -24,7 +27,6 @@
     font-size: 25px;
     color: gray;
     font-weight: bolder;
-
 }
 .aboutMe{
     padding-top: 1% !important;
@@ -197,10 +199,10 @@ html, body, .block{
        background-position: 50%;
        background-size: cover;
    }
-   .aboutMe{
+   /* .aboutMe{
        padding: 5% 0% 8% !important;
-   }
-   .tittle,  .tittle-one{
+   } */
+   /* .tittle,  .tittle-one{
        padding: 12% !important;
     }
     .carousel-item{
@@ -213,9 +215,26 @@ html, body, .block{
         padding: 5% 0% 0%;
     
     }
+    .block{
+        height: 50%;
+    } */
     
 }
-
-
+@media only screen and (max-width: 700px) {
+   .block{
+       height: 75%;
+   }
+}
+@media only screen and (max-width: 400px) {
+    .block{
+        height: 100%;
+    }
+    .aboutMe{
+        padding: 8% 0% 8% !important;
+    }
+    .text-project{
+        padding: 5% !important;
+    }
+}
 
 
