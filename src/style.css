@@ -3,8 +3,8 @@
     border: black solid 5px;
 } */
 .perfil-section{
-    padding-top:5%; 
-    /* padding-bottom: 5%; */
+    padding-top:8%; 
+    padding-bottom: 10%;
 }
 .block-portada{
     height: 100%;
@@ -156,7 +156,7 @@ html, body, .block{
 .contactTittle{
     font-weight: bolder;
     /* text-align: center; */
-    padding: 5% 30% 5% !important;
+    padding: 8% 30% 5% !important;
     color: #e57373!important;
 }
 .box{
@@ -190,46 +190,19 @@ html, body, .block{
     color: gray;
     text-decoration: none;
 }
-@media only screen and (max-width: 1440px) {
-  
-    .text{
-        
-        font-family: Arial, Helvetica, sans-serif !important;
-        font-size: 16px;
-        
-    }
-    .ml2{
-        font-size: 40px;
-    }
-    .ml3{
-        font-size: 25px;
-    }
-   #inicio{
-       background-position: 50%;
-       background-size: cover;
-   }
+/* .sectionPerfil{
+    height: 100% !important;
 }
-
-@media only screen and (max-width: 1280px) {
-
-    .text{
-        
-        font-family: Arial, Helvetica, sans-serif !important;
-        font-size: 16px;
-        
-    }
-    .ml2{
-        font-size: 34px;
-    }
-    .ml3{
-        font-size: 18px;
-    }
-   #inicio{
-       background-position: 50%;
-       background-size: cover;
-   }
-}
+.section{
+    height: 100% !important;
+} */
 @media only screen and (max-width: 1024px) {
+    /* .sectionPerfil{
+        height: 60% !important;
+    } */
+    /* .section{
+        height: 60% !important;
+    } */
     .aboutMe{
         padding-top: 6% !important;
         padding-bottom: 10% !important;
