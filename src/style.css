@@ -339,6 +339,13 @@ html, body, .block{
     }
    
 }
+@media only screen and (max-width: 360px) {
+  
+    .section{
+        height: 100% !important;
+    }
+   
+}
 @media only screen and (max-width: 320px) {
   
     .ml2{
