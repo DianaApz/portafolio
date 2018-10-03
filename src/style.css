@@ -2,6 +2,10 @@
 *{
     border: black solid 5px;
 } */
+.perfil-section{
+    padding-top:5%; 
+    /* padding-bottom: 5%; */
+}
 .block-portada{
     height: 100%;
 }
@@ -29,7 +33,7 @@
     font-weight: bolder;
 }
 .aboutMe{
-    padding-top: 1% !important;
+    padding-top: 0% !important;
     padding-bottom: 4% !important;
     color: #e57373!important;
     font-weight: bolder;
@@ -129,7 +133,7 @@ html, body, .block{
     height: 500px !important;
 }
 .tittle-one{
-    padding: 10% 30% 5% !important;
+    padding: 8% 30% 5% !important;
     color: #e57373!important;
     font-weight: bolder;
 }
@@ -144,10 +148,16 @@ html, body, .block{
 .tittle{
     font-weight: bolder;
     /* text-align: center; */
-    padding: 10% 30% 5% !important;
+    padding: 7% 30% 5% !important;
     color: #e57373!important;
     /* border-bottom-style: solid;
     border-color: #e57373; */
+}
+.contactTittle{
+    font-weight: bolder;
+    /* text-align: center; */
+    padding: 5% 30% 5% !important;
+    color: #e57373!important;
 }
 .box{
     padding-top: 10%;
@@ -180,8 +190,7 @@ html, body, .block{
     color: gray;
     text-decoration: none;
 }
-
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1440px) {
   
     .text{
         
@@ -190,51 +199,175 @@ html, body, .block{
         
     }
     .ml2{
-        font-size: 32px;
+        font-size: 40px;
     }
     .ml3{
-        font-size: 16px;
+        font-size: 25px;
     }
    #inicio{
        background-position: 50%;
        background-size: cover;
    }
-   /* .aboutMe{
-       padding: 5% 0% 8% !important;
-   } */
-   /* .tittle,  .tittle-one{
-       padding: 12% !important;
-    }
-    .carousel-item{
-        padding-top: 10% !important; 
-    }
-    .image{
-        padding: 1% 0% 1% !important;
-    }
-    .perfil-block{
-        padding: 5% 0% 0%;
-    
-    }
-    .block{
-        height: 50%;
-    } */
-    
-}
-@media only screen and (max-width: 700px) {
-   .block{
-       height: 75%;
-   }
-}
-@media only screen and (max-width: 400px) {
-    .block{
-        height: 100%;
-    }
-    .aboutMe{
-        padding: 8% 0% 8% !important;
-    }
-    .text-project{
-        padding: 5% !important;
-    }
 }
 
+@media only screen and (max-width: 1280px) {
+
+    .text{
+        
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-size: 16px;
+        
+    }
+    .ml2{
+        font-size: 34px;
+    }
+    .ml3{
+        font-size: 18px;
+    }
+   #inicio{
+       background-position: 50%;
+       background-size: cover;
+   }
+}
+@media only screen and (max-width: 1024px) {
+    .aboutMe{
+        padding-top: 6% !important;
+        padding-bottom: 10% !important;
+    }
+    #inicio{
+        background-position: 50%;
+        background-size: cover;
+    }
+    .text{
+        
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-size: 16px;
+        
+    }
+    .ml2{
+        font-size: 40px;
+    }
+    .ml3{
+        font-size: 25px;
+    }
+  
+}
+
+
+@media only screen and (max-width: 640px) {
+    .section{
+        height: 80% !important;
+    }
+    .da{
+        
+        padding: 10% !important;
+        
+    }
+    .ml2{
+        font-size: 20px;
+    }
+    .ml3{
+        font-size: 12px;
+    }
+
+}
+@media only screen and (max-width: 414px) {
+  
+    .section{
+        height: 95% !important;
+    }
+    .aboutMe{
+        padding-top: 8% !important;
+        padding-bottom: 10% !important;
+    }
+    .ml2{
+        font-size: 32px;
+    }
+    .ml3{
+        font-size: 16px;
+    }
+    .tittle-one{
+        padding: 14% 30% 10% !important;
+        color: #e57373!important;
+        font-weight: bolder;
+    }
+    .tittle{
+        
+        padding: 15% 30% 10% !important;
+        
+    }
+   
+}
+@media only screen and (max-width: 411px) {
+    .aboutMe{
+        padding-top: 15% !important;
+        padding-bottom: 10% !important;
+    }
+    .section{
+        height: 90% !important;
+    }
+    .contactTittle{
+        padding: 12% 0% 10% !important;
+    }
+}
+@media only screen and (max-width: 375px) {
+  
+    .section{
+        height: 100% !important;
+    }
+    .aboutMe{
+        padding-top: 5% !important;
+        padding-bottom: 10% !important;
+    }
+    .ml2{
+        font-size: 26px;
+    }
+    .ml3{
+        font-size: 15px;
+    }
+    .tittle-one{
+        padding: 15% !important;
+        color: #e57373!important;
+        font-weight: bolder;
+    }
+    .tittle{
+        
+        padding: 15% !important;
+        
+    }
+    .contactTittle{
+        padding: 15% 0% 10% !important;
+    }
+   
+}
+@media only screen and (max-width: 320px) {
+  
+    .ml2{
+        font-size: 26px;
+    }
+    .ml3{
+        font-size: 15px;
+    }
+    .tittle-one{
+        padding: 14% !important;
+        color: #e57373!important;
+        font-weight: bolder;
+    }
+    .section{
+        height: 120% !important;
+    }
+    /* .aboutMe{
+        padding-top: 3% !important;
+        padding-bottom: 10% !important;
+    } */
+    /* .tittle{
+        
+        padding: 15% !important;
+        
+    }
+    .contactTittle{
+        padding: 15% 0% 10% !important;
+    } */
+   
+}
 
