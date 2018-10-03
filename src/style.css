@@ -1,7 +1,3 @@
-/* 
-*{
-    border: black solid 5px;
-} */
 .perfil-section{
     padding-top:8%; 
     padding-bottom: 10%;
@@ -156,7 +152,7 @@ html, body, .block{
 .contactTittle{
     font-weight: bolder;
     /* text-align: center; */
-    padding: 8% 30% 5% !important;
+    padding: 5% 30% 5% !important;
     color: #e57373!important;
 }
 .box{
@@ -181,6 +177,7 @@ html, body, .block{
 .contact{
     padding: 5% 0% 4%;
 }
+
 #contactos div p{
     color: gray;
     font-size: 15px;
@@ -228,9 +225,7 @@ html, body, .block{
 
 
 @media only screen and (max-width: 640px) {
-    .section{
-        height: 80% !important;
-    }
+    
     .da{
         
         padding: 10% !important;
@@ -283,13 +278,41 @@ html, body, .block{
         padding: 12% 0% 10% !important;
     }
 }
-@media only screen and (max-width: 375px) {
-  
+@media only screen and (max-width: 385px) {
     .section{
-        height: 100% !important;
+        height: 95% !important;
     }
     .aboutMe{
         padding-top: 5% !important;
+        padding-bottom: 10% !important;
+    }
+    .ml2{
+        font-size: 26px;
+    }
+    .ml3{
+        font-size: 15px;
+    }
+    .tittle-one{
+        padding: 15% !important;
+        color: #e57373!important;
+        font-weight: bolder;
+    }
+    .tittle{
+        
+        padding: 15% !important;
+        
+    }
+    .contactTittle{
+        padding: 15% 0% 10% !important;
+    }
+}
+@media only screen and (max-width: 375px) {
+  
+    .section{
+        height: 80% !important;
+    }
+    .aboutMe{
+        padding-top: 6% !important;
         padding-bottom: 10% !important;
     }
     .ml2{
