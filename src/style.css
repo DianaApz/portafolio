@@ -70,7 +70,7 @@ html, body, .block{
 .aboutMe{
     color: #e57373 !important;
     font-weight: bolder;
-    padding: 2% 0% 10% !important;
+    padding: 5% 0% 9% !important;
 }
 .box-images{
     margin: 1% 0% 0%;
@@ -151,23 +151,23 @@ border-radius: 5px; */
 .ancla{
     color:gray !important;
 }
-@media only screen and (max-width: 1440px) {
+/* @media only screen and (max-width: 1440px) { */
     /* #inicio{
         background-position: 50%;
     } */
-    .ml3{
+    /* .ml3{
         font-size: 25px;
-    }
+    } */
     /* .moving-letters{
         height: 450px;
     } */
-    .da{
+    /* .da{
         font-size: 40px;
     }
     .aboutMe{
         padding: 7% 0% 8% !important;
     }
-}
+} */
 @media only screen and (max-width: 1024px) {
     .moving-letters{
         height: 600px ;
